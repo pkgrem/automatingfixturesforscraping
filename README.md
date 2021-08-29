@@ -11,3 +11,8 @@ Then you must import the data into your local environment, through the script: F
 From here you can use another script called URLsForScraping.SQL and it will provide you with the fixtures for scraping within Oddschecker week on week.
 
 I have taken the naming conventions from OddsChecker already and used cases and a concat in SQL to make the URL readable.
+
+I've sorted by only the gameweek which is next by excluding gameweeks which were finished.
+
+![image](https://user-images.githubusercontent.com/8496923/131267076-c275d338-1d13-48c1-9f20-d00aaf351905.png)
+
