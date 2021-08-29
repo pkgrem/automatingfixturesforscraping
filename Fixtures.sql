@@ -2,7 +2,6 @@
 
 --SELECT @JSON = BulkColumn
 --FROM OPENROWSET 
---(BULK 'C:\Users\Paddy\Desktop\download.json', SINGLE_CLOB) 
 --AS j;
 
 --If (ISJSON(@JSON)=1)
@@ -12,7 +11,7 @@ DECLARE @JSON VARCHAR(MAX)
 
 SELECT @JSON = BulkColumn
 FROM OPENROWSET 
-(BULK 'D:\FPL\Youtube\API\fixture.json', SINGLE_CLOB) 
+(BULK 'YOUR SAVE FILE LOCATION', SINGLE_CLOB) 
 AS j;
 
 If (ISJSON(@JSON)=1)
