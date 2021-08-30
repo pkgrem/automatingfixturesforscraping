@@ -30,3 +30,14 @@ I then went into settings on pycharm and then went to the Project and then in Py
 
 ![image](https://user-images.githubusercontent.com/8496923/131267613-8a7ef23c-2ee0-441b-87c4-68ec90025b53.png)
 
+I created a few more stored procedures and then created a job to get it to update every 24 hours.
+
+In the Server Configuration Manager
+
+![image](https://user-images.githubusercontent.com/8496923/131337758-873fc0e3-1824-4afd-9717-78c1a8cebf12.png)
+
+The agent was not started so I started the agent
+![image](https://user-images.githubusercontent.com/8496923/131337834-bc9ddd26-bf16-4403-b1ff-d72e49976cfd.png)
+
+The button was disabled so I had to go into services.msc and change it from disabled:
+![image](https://user-images.githubusercontent.com/8496923/131338150-d0718ce1-4472-46d0-9367-cf4e4e103e6b.png)
