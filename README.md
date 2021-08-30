@@ -62,3 +62,9 @@ After re-adding the scripts I then created a job to update the table every 24 ho
 ![image](https://user-images.githubusercontent.com/8496923/131349748-d3d69241-e14c-4d65-b9b8-57fa2cbf96c0.png)
 
 The job itself just runs the SP. Nothing to comlpicated.
+
+Found out a method in which I can use the FPL api to import and parse data into the database, it requires a dropping of a table and reparsing but it works without having to download the files. I've included it as spUpdateFixturesAPI
+
+in my DB I have set it to run the task daily at 7pm. This will automatically update the fixture schedule on my environment. 
+
+Now to write it for the other imports.
