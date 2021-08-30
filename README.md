@@ -41,3 +41,10 @@ The agent was not started so I started the agent
 
 The button was disabled so I had to go into services.msc and change it from disabled:
 ![image](https://user-images.githubusercontent.com/8496923/131338150-d0718ce1-4472-46d0-9367-cf4e4e103e6b.png)
+
+After this I started the service and got the error stating the SQL Server Agent service on Local Computer started and then stopped. Some services stop automatically if they are not in use by other services or programs
+
+lol
+This installation of SQL Server Agent is disabled. The edition of SQL Server that installed this service does not support SQL Server Agent.
+
+REINSTALL TIME
