@@ -57,3 +57,8 @@ After that step of reinstalling, there is now an SQL server agent. I had to go b
 ![image](https://user-images.githubusercontent.com/8496923/131348069-d38cf4b8-263e-4176-8fed-c03393d0a8a3.png)
 
 From here I've to run my scripts to get the DB active.
+
+After re-adding the scripts I then created a job to update the table every 24 hours:
+![image](https://user-images.githubusercontent.com/8496923/131349748-d3d69241-e14c-4d65-b9b8-57fa2cbf96c0.png)
+
+The job itself just runs the SP. Nothing to comlpicated.
