@@ -51,3 +51,9 @@ REINSTALL TIME
 
 I had to do a new install with the developer version. Then created a new instance called FPL.
 https://download.microsoft.com/download/d/a/2/da259851-b941-459d-989c-54a18a5d44dd/SQL2019-SSEI-Dev.exe
+
+After that step of reinstalling, there is now an SQL server agent. I had to go back into SQL Server Configuration Manager and activate it. As it runs manualy. I've changed it to run automatic.
+
+![image](https://user-images.githubusercontent.com/8496923/131348069-d38cf4b8-263e-4176-8fed-c03393d0a8a3.png)
+
+From here I've to run my scripts to get the DB active.
